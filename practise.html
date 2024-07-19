@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h2>Radio Buttons</h2>
+
+  <p>Choose your favorite Web language:</p>
+
+  <form id="language votes">
+  <input type="radio" id="html" name="fav_language" value="html">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="css">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="javaScript">
+  <label for="javascript">JavaScript</label>
+    <button type="button" onclick="submit votes()"> Submit </button>
+  </form> 
+  <h2>Votes</h2>
+  <ul>
+      <li>HTML<span id="html votes"> 0 </span></li>
+    <li>CSS<span id="css votes"> 0 </span></li>
+    <li>JavaScript<span id="javascript votes"> 0 </span></li>
+    <ul>
+  <script src="script.js"></script>
+</body>
+
+</html>
